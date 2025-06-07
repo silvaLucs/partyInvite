@@ -14,6 +14,80 @@
     />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <main id="main-img">
+        <img src="/assets/Brand.svg" alt="" />
+      </main>
+      <aside>
+        <form action="" method="post">
+          <h1>Crie seu convite</h1>
+          <fieldset class="aboutEvent">
+            <legend>
+              <img src="/assets/calendar.svg" alt="ícone de calendário" />
+              Sobre o evento
+            </legend>
+
+            <div class="input-wrapper">
+              <label for="title">Título do evento</label>
+              <input
+                type="text"
+                name="title"
+                id="title"
+                placeholder="Nome do evento"
+              />
+            </div>
+
+            <div class="flex-wrapper">
+              <div class="input-wrapper">
+                <label for="begins">Inicio</label>
+                <input
+                  type="datetime-local"
+                  name="begins"
+                  id="begins"
+                  placeholder="DD/MM/AAAA, --:--"
+                />
+              </div>
+              <div class="input-wraper">
+                <label for="end">Fim</label>
+                <input
+                  type="datetime-local"
+                  id="end"
+                  name="end"
+                  placeholder="DD/MM/AAAA, --:--"
+                />
+              </div>
+            </div>
+            <div class="flex-wrapper">
+              <div class="input-wrapper">
+                <div class="radio-wrapper">
+                  <label for="type">Tipo</label>
+                  <input type="radio" name="type" id="present" value="online" />
+                  <label for="online">online</label>
+                  <input type="radio" name="type" id="online" value="online" />
+                </div>
+              </div>
+              <div class="input-wraper">
+                <label for="place">Local</label>
+                <input
+                  type="text"
+                  id="place"
+                  name="place"
+                  placeholder="Link ou endereço"
+                />
+              </div>
+            </div>
+            <div class="textearea-wrapper">
+              <label for="description">Descrição</label>
+              <textarea
+                name="description"
+                id="description"
+                placeholder="Escreva sobre os detalhes do evento"
+                rows="6"
+              ></textarea>
+            </div>
+          </fieldset>
+        </form>
+      </aside>
+    </div>
   </body>
 </html>

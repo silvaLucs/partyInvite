@@ -35,3 +35,16 @@
 
     --danger: #FF5959;
 }
+
+#app {
+    height: 100vh;
+    background-color: var(--shape-background);
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+main {
+    padding: 1rem;
+    
+}
