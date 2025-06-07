@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font: 62.5%;
+
+    --font-primary: 'Baloo 2', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+
+    --heading-md: 700 2.8rem var(--font-primary);
+    --heading-sm: 700 1.8rem var(--font-primary);
+
+    --body-md: 1.6rem var(--font-secondary);
+    --body-sm: 1.4rem var(--font-secondary);
+    --body-xs: 1.2rem var(--font-secondary);
+
+    --text-body: #C8CDD0;
+    --text-heading: #F9F9F9;
+
+    --brand-light: #59B2FF;
+    --brand-mid: #3487CF;
+    --brand-dark: #1D6FB6;
+
+    --input-base: #1C1F51;
+    --input-stroke: #363B40;
+    --input-placeholder: #869198;
+
+    --shape-background: #131516;
+    --shape-body: #212427;
+    --shape-button: #2D3136;
+    --shape-hover: #383D42;
+
+    --danger: #FF5959;
+}
