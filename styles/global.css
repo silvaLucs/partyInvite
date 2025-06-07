@@ -41,10 +41,20 @@
     background-color: var(--shape-background);
 
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
+    overflow: hidden;
 }
 
 main {
     padding: 1rem;
+
+    img {
+        height: 90%;
+        object-fit: cover;
+    }
     
+}
+
+aside {
+    margin: .8rem;
 }

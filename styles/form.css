@@ -1,0 +1,31 @@
+form {
+    background-color: var(--shape-body);
+
+    padding: 8rem 12rem;
+
+    border-radius: 1.2rem;
+
+    input, fieldset, textarea {
+        all: unset;
+    }
+
+    h1 {
+    font: var(--heading-md);
+    color: var(--text-heading);
+
+    margin-bottom: 4rem;
+}
+
+
+legend {
+    display: flex;
+    gap: 1.2rem;
+
+    align-items: center;
+
+    font: var(--heading-sm);
+    color: var(--text-heading);
+}
+
+
+}
